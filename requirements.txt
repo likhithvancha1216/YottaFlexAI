@@ -1,0 +1,2 @@
+# Testing dependency
+pytest>=8.0,<10.0

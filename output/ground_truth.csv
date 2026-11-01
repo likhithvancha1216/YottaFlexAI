@@ -1,0 +1,5 @@
+﻿anomaly_id,anomaly_type,entity_type,record_id,related_record_id,description
+ANOM-001,UNAPPROVED_CHANGE_UPDATES_INVENTORY,inventory_plan,INV-PO-2026-000002-L01-02,CHG-PO-2026-000002-000001,Inventory updated from a rejected or pending change.
+ANOM-002,ACK_POINTS_TO_WRONG_PO_LINE,acknowledgement,ACK-PO-2026-000001-01,PO-2026-000002-L01,ACK references a PO line belonging to another PO.
+ANOM-003,PROMISED_DATE_BEFORE_ORDER_DATE,promise,PRM-PO-2026-000001-L01-01,PO-2026-000001,Promised date is earlier than the PO order date.
+ANOM-004,OLDER_REVISION_OVERWRITES_NEWER,inventory_plan,INV-PO-2026-000005-L01-02,INV-PO-2026-000005-L01-03,Revision 1 takes effect after revision 2.

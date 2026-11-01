@@ -1,0 +1,59 @@
+# Python bytecode and cache files
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# pytest cache
+
+.pytest_cache/
+
+# Coverage and test reports
+
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# IDE and editor settings
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment and secret files
+
+.env
+.env.*
+!.env.example
+
+# Logs
+
+*.log
+
+# Temporary files
+
+*.tmp
+*.bak
+*.old
+
+# Keep the output directory in version control
+
+# Ignore generated CSV files only if they are not required for submission.
+
+# The current project requires generated CSV outputs, so they remain included.
